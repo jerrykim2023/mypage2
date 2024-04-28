@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이제 다시 한번 해볼까?</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Hi+Melody&display=swap');
+
+        /* * 은 모두를 나타냄 */
+        * {
+            font-family: "Hi Melody", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .title {
+            color: white;
+            background-color: brown;
+            font-size: 24px;
+            /* 위아래 | 좌우 여백 */
+            padding: 4px 10px;
+            border-radius: 6px;
+
+        }
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+            /* background-image: url('D:\lukasWeb\images\bg-grid.png'); */
+        }
+
+        .msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    외부 리소스 연결 | 관계 stylesheet | 콘텐츠 유형
+    <link rel="stylesheet" type="text/css"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg-t3 center">
+    <!-- 페이지 제목태그 -->
+    <h1 class="title">올해 자기개발 버킷리스트</h1>
+    <!-- 문단 p -->
+    <p title="msg">
+        이제는 지킬 수 있을 까.... 공부하다 첨부터 다시하는
+        이제는 지겹다.
+    </p>
+    <!-- 박스 div -->
+    <div class="row flex-row wrap">
+
+        <div class="bucket img1-t2 center done">Web개발 기초 html, CSS</div>
+        <div class="bucket img2 center">Java Script</div>
+        <div class="bucket img1 center">JJ system 조회페이지 개발</div>
+        <div class="bucket img2 center">JJ system 출력물 개발</div>
+        <div class="bucket img1 center">MS EMS 마스터</div>
+        <div class="bucket img2 center">C# WinFrom 주소록 개발</div>
+    </div>
+
+</body>
+
+</html>
